@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Menu | Le Bonbon Grill</title>
+    <meta name="description" content="Discover our delicious menu at Le Bonbon Grill.">
+    <link rel="icon" href="images/lebonbon-logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="site-logo">
+                <a href="/">
+                    <img src="images/lebonbon-logo.png" alt="Le Bonbon Grill Home">
+                </a>
+            </div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="intro" class="content c-intro container-sm">
+            <h1>Menu</h1>
+        </section>
+
+        <section id="menus" aria-label="menus-section" class="content">
+            <div class="tabs">
+                <ul class="tabs-nav" role="tablist">
+                    <li role="presentation">
+                        <a id="tab--1" class="btn btn-tabs active" href="#appetizers" role="tab" aria-controls="appetizers" aria-selected="true" data-order="1" tabindex="0">Appetizers</a>
+                    </li>
+                    <li role="presentation">
+                        <a id="tab--2" class="btn btn-tabs" href="#entrees" role="tab" aria-controls="entrees" aria-selected="false" data-order="2" tabindex="-1">Entrees</a>
+                    </li>
+                    <li role="presentation">
+                        <a id="tab--3" class="btn btn-tabs" href="#desserts" role="tab" aria-controls="desserts" aria-selected="false" data-order="3" tabindex="-1">Desserts</a>
+                    </li>
+                    <li role="presentation">
+                        <a id="tab--4" class="btn btn-tabs" href="#beverages" role="tab" aria-controls="beverages" aria-selected="false" data-order="4" tabindex="-1">Beverages</a>
+                    </li>
+                </ul>
+
+                <div class="tabs-content">
+                    <section id="appetizers" class="tabs-panel tabs-panel--active tabs-panel--show" role="tabpanel" aria-labelledby="tab--1" aria-selected="true">
+                        <div class="container-sm">
+                            <section class="menu-section">
+                                <div class="menu-section__header">
+                                    <h2>Appetizers</h2>
+                                </div>
+                                <ul>
+                                    <li class="menu-item">
+                                        <p class="menu-item__heading menu-item__heading--name">Menu Item 1</p>
+                                        <p class="menu-item__details--description">Description for Menu Item 1</p>
+                                        <p class="menu-item__details menu-item__details--price"><strong><span class="menu-item__currency">$</span>10</strong></p>
+                                    </li>
+                                    <li class="menu-item">
+                                        <p class="menu-item__heading menu-item__heading--name">Menu Item 2</p>
+                                        <p class="menu-item__details--description">Description for Menu Item 2</p>
+                                        <p class="menu-item__details menu-item__details--price"><strong><span class="menu-item__currency">$</span>12</strong></p>
+                                    </li>
+                                    <!-- Add more appetizers here -->
+                                </ul>
+                            </section>
+                        </div>
+                    </section>
+
+                    <section id="entrees" class="tabs-panel" role="tabpanel" aria-labelledby="tab--2" aria-selected="false">
+                        <div class="container-sm">
+                            <section class="menu-section">
+                                <div class="menu-section__header">
+                                    <h2>Entrees</h2>
+                                </div>
+                                <ul>
+                                    <li class="menu-item">
+                                        <p class="menu-item__heading menu-item__heading--name">Menu Item 1</p>
+                                        <p class="menu-item__details--description">Description for Menu Item 1</p>
+                                        <p class="menu-item__details menu-item__details--price"><strong><span class="menu-item__currency">$</span>20</strong></p>
+                                    </li>
+                                    <li class="menu-item">
+                                        <p class="menu-item__heading menu-item__heading--name">Menu Item 2</p>
+                                        <p class="menu-item__details--description">Description for Menu Item 2</p>
+                                        <p class="menu-item__details menu-item__details--price"><strong><span class="menu-item__currency">$</span>22</strong></p>
+                                    </li>
+                                    <!-- Add more entrees here -->
+                                </ul>
+                            </section>
+                        </div>
+                    </section>
+
+                    <section id="desserts" class="tabs-panel" role="tabpanel" aria-labelledby="tab--3" aria-selected="false">
+                        <div class="container-sm">
+                            <section class="menu-section">
+                                <div class="menu-section__header">
+                                    <h2>Desserts</h2>
+                                </div>
+                                <ul>
+                                    <li class="menu-item">
+                                        <p class="menu-item__heading menu-item__heading--name">Menu Item 1</p>
+                                        <p class="menu-item__details--description">Description for Menu Item 1</p>
+                                        <p class="menu-item__details menu-item__details--price"><strong><span class="menu-item__currency">$</span>8</strong></p>
+                                    </li>
+                                    <li class="menu-item">
+                                        <p class="menu-item__heading menu-item__heading--name">Menu Item 2</p>
+                                        <p class="menu-item__details--description">Description for Menu Item 2</p>
+                                        <p class="menu-item__details menu-item__details--price"><strong><span class="menu-item__currency">$</span>9</strong></p>
+                                    </li>
+                                    <!-- Add more desserts here -->
+                                </ul>
+                            </section>
+                        </div>
+                    </section>
+
+                    <section id="beverages" class="tabs-panel" role="tabpanel" aria-labelledby="tab--4" aria-selected="false">
+                        <div class="container-sm">
+                            <section class="menu-section">
+                                <div class="menu-section__header">
+                                    <h2>Beverages</h2>
+                                </div>
+                                <ul>
+                                    <li class="menu-item">
+                                        <p class="menu-item__heading menu-item__heading--name">Menu Item 1</p>
+                                        <p class="menu-item__details--description">Description for Menu Item 1</p>
+                                        <p class="menu-item__details menu-item__details--price"><strong><span class="menu-item__currency">$</span>5</strong></p>
+                                    </li>
+                                    <li class="menu-item">
+                                        <p class="menu-item__heading menu-item__heading--name">Menu Item 2</p>
+                                        <p class="menu-item__details--description">Description for Menu Item 2</p>
+                                        <p class="menu-item__details menu-item__details--price"><strong><span class="menu-item__currency">$</span>7</strong></p>
+                                    </li>
+                                    <!-- Add more beverages here -->
+                                </ul>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Le Bonbon Grill. All rights reserved.</p>
+            <ul class="social">
+                <li><a href="https://facebook.com/lebonbon" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com/lebonbon" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/lebonbon" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
